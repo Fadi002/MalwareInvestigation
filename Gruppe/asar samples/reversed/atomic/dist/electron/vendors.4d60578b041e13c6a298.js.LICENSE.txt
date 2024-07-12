@@ -1,0 +1,524 @@
+/*!
+ * aead.js - aead for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * aes.js - aes for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * asn1.js - ASN1 encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/asn1.js:
+ *   Copyright Fedor Indutny, 2013.
+ *   https://github.com/indutny/asn1.js
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009 The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One
+ *   https://en.wikipedia.org/wiki/X.690#BER_encoding
+ *   https://en.wikipedia.org/wiki/X.690#DER_encoding
+ *   http://luca.ntop.org/Teaching/Appunti/asn1.html
+ *   ftp://ftp.rsasecurity.com/pub/pkcs/ascii/layman.asc
+ *   https://tools.ietf.org/html/rfc2560
+ *   https://tools.ietf.org/html/rfc5280
+ *   https://github.com/indutny/asn1.js/blob/master/rfc/2560/index.js
+ *   https://github.com/indutny/asn1.js/blob/master/rfc/5280/index.js
+ *   https://github.com/indutny/asn1.js/blob/master/lib/asn1/base/node.js
+ *   https://github.com/indutny/asn1.js/blob/master/lib/asn1/encoders/der.js
+ *   https://github.com/indutny/asn1.js/blob/master/lib/asn1/decoders/der.js
+ *   https://github.com/openssl/openssl/blob/master/include/openssl/asn1.h
+ *   https://github.com/golang/go/blob/master/src/encoding/asn1/asn1.go
+ *   https://github.com/golang/go/blob/master/src/encoding/asn1/marshal.go
+ */
+
+/*!
+ * base16.js - base16 for javascript
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc4648
+ */
+
+/*!
+ * base32.js - base32 for bcrypto
+ * Copyright (c) 2014-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on bitcoin/bitcoin:
+ *   Copyright (c) 2009-2019, The Bitcoin Core Developers (MIT License).
+ *   Copyright (c) 2009-2019, The Bitcoin Developers (MIT License).
+ *   https://github.com/bitcoin/bitcoin
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc4648
+ *   https://github.com/bitcoin/bitcoin/blob/11d486d/src/utilstrencodings.cpp#L230
+ */
+
+/*!
+ * base58.js - base58 for bcrypto
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * base64.js - base64 for javascript
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc4648
+ */
+
+/*!
+ * bcrypt.js - bcrypt for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on joyent/node-bcrypt-pbkdf:
+ *   Copyright (c) 2016, Joyent Inc
+ *   https://github.com/joyent/node-bcrypt-pbkdf
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Bcrypt
+ *   http://www.usenix.org/events/usenix99/provos/provos_html/node1.html
+ *   https://hackernoon.com/the-bcrypt-protocol-is-kind-of-a-mess-4aace5eb31bd
+ *   https://github.com/openbsd/src/blob/master/lib/libc/crypt/bcrypt.c
+ *   https://github.com/openssh/openssh-portable
+ *   https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bcrypt_pbkdf.c
+ *   https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/blowfish.c
+ *   https://github.com/joyent/node-bcrypt-pbkdf/blob/master/index.js
+ */
+
+/*!
+ * bcrypto.js - crypto for bcrypto
+ * Copyright (c) 2014-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * bech32.js - bech32 for bcrypto
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2b.js - blake2b for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2b160.js - BLAKE2b implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2b256.js - BLAKE2b implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2b384.js - BLAKE2b implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2b512.js - BLAKE2b implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2s.js - blake2s for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2s128.js - BLAKE2s implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2s160.js - BLAKE2s implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2s224.js - BLAKE2s implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * blake2s256.js - BLAKE2s implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * bn.js - big numbers for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * box.js - nacl secretbox for bcrypto (crypto_secretbox_xsalsa20poly1305)
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009 The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://nacl.cr.yp.to/secretbox.html
+ *   https://github.com/golang/crypto/blob/master/nacl/box/box.go
+ *   https://github.com/golang/crypto/blob/master/nacl/box/box_test.go
+ *   https://github.com/golang/crypto/blob/master/nacl/box/example_test.go
+ */
+
+/*!
+ * cash32.js - cashaddr for bcrypto
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * chacha20.js - chacha20 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * cipher.js - cipher for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * cleanse.js - cleanse for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * cshake.js - cSHAKE implementation for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://keccak.team/specifications.html
+ *   https://www.nist.gov/node/1131611
+ *   https://doi.org/10.6028/NIST.SP.800-185
+ *   https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-185.pdf
+ *   https://github.com/XKCP/XKCP/blob/8f447eb/lib/high/Keccak/SP800-185/SP800-185.inc
+ *   https://github.com/XKCP/XKCP/blob/8f447eb/lib/high/Keccak/SP800-185/SP800-185.c
+ *   https://github.com/XKCP/XKCP/blob/8f447eb/tests/UnitTests/testSP800-185.c
+ *   https://github.com/emn178/js-sha3/blob/master/src/sha3.js
+ */
+
+/*!
+ * cshake128.js - CSHAKE128 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * cshake256.js - CSHAKE256 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * ctr-drbg.js - ctr-drbg implementation for bcrypto
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on google/boringssl:
+ *   https://github.com/google/boringssl
+ *
+ * Resources:
+ *   https://csrc.nist.gov/publications/detail/sp/800-90a/archive/2012-01-23
+ *   https://github.com/google/boringssl/blob/master/crypto/fipsmodule/rand/ctrdrbg.c
+ *   https://github.com/google/boringssl/blob/master/crypto/fipsmodule/rand/internal.h
+ *   https://github.com/openssl/openssl/blob/master/crypto/rand/drbg_lib.c
+ *   https://github.com/cryptocoinjs/drbg.js/blob/master/ctr.js
+ *   https://github.com/netroby/jdk9-dev/blob/master/jdk/src/java.base/share/classes/sun/security/provider/CtrDrbg.java
+ */
+
+/*!
+ * dh.js - DH for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * dsa.js - DSA for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * dsaies.js - dsaies for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Integrated_Encryption_Scheme
+ *   https://nacl.cr.yp.to/secretbox.html
+ */
+
+/*!
+ * eb2k.js - EVP_BytesToKey for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on crypto-browserify/EVP_BytesToKey:
+ *   Copyright (c) 2017, crypto-browserify contributors
+ *   https://github.com/crypto-browserify/EVP_BytesToKey
+ *
+ * Resources:
+ *   https://github.com/openssl/openssl/blob/2e9d61e/crypto/evp/evp_key.c
+ *   https://github.com/crypto-browserify/EVP_BytesToKey/blob/master/index.js
+ *   https://github.com/openssl/openssl/blob/master/crypto/evp/evp_key.c
+ */
+
+/*!
+ * ecies.js - ecies for javascript (crypto_secretbox_xsalsa20poly1305)
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Integrated_Encryption_Scheme
+ *   https://nacl.cr.yp.to/secretbox.html
+ */
+
+/*!
+ * ed25519.js - ed25519 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * ed448.js - ed448 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * gost94.js - GOST94 implementation for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on RustCrypto/hashes:
+ *   Copyright (c) 2016-2018, The RustCrypto Authors (MIT License).
+ *   https://github.com/RustCrypto/hashes
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/GOST_(hash_function)
+ *   https://tools.ietf.org/html/rfc4357
+ *   https://tools.ietf.org/html/rfc5831
+ *   https://github.com/RustCrypto/hashes/blob/master/gost94/src/gost94.rs
+ */
+
+/*!
+ * hash-drbg.js - hash-drbg implementation for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on cryptocoinjs/drbg.js:
+ *   Copyright (c) 2016 Kirill Fomichev
+ *   https://github.com/cryptocoinjs/drbg.js
+ *
+ * Resources:
+ *   https://csrc.nist.gov/publications/detail/sp/800-90a/archive/2012-01-23
+ *   https://github.com/cryptocoinjs/drbg.js/blob/master/hash.js
+ */
+
+/*!
+ * hash160.js - hash160 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * hash256.js - hash256 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * index.js - encoding for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * lines.js - line reader for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * openssl.js - openssl-specific encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://www.openssl.org/docs/man1.1.0/apps/dsa.html
+ *   https://superuser.com/questions/478966/dsa-private-key-format
+ *   https://github.com/dlitz/pycrypto/blob/master/lib/Crypto/PublicKey/DSA.py
+ *   https://github.com/openssl/openssl/blob/master/crypto/dsa/dsa_asn1.c
+ */
+
+/*!
+ * pem.js - PEM for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Privacy-Enhanced_Mail
+ *   https://tools.ietf.org/html/rfc1421
+ *   https://tools.ietf.org/html/rfc1422
+ *   https://tools.ietf.org/html/rfc1423
+ *   https://tools.ietf.org/html/rfc1424
+ *   https://tools.ietf.org/html/rfc4880
+ *   https://tls.mbed.org/kb/cryptography/asn1-key-structures-in-der-and-pem
+ *   https://github.com/crypto-browserify/EVP_BytesToKey/blob/master/index.js
+ *   https://github.com/openssl/openssl/blob/master/include/openssl/pem.h
+ *   https://github.com/openssl/openssl/blob/master/crypto/pem/pem_lib.c
+ *   https://github.com/openssl/openssl/blob/master/crypto/evp/evp_key.c
+ *   https://github.com/openssl/openssl/blob/master/crypto/pem/pem_pkey.c
+ */
+
+/*!
+ * pemcrypt.js - PEM encryption for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc1421
+ */
+
+/*!
+ * pkcs1.js - PKCS1 encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009 The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/PKCS_1
+ *   https://tools.ietf.org/html/rfc3447
+ *   https://tools.ietf.org/html/rfc8017#appendix-A.1.1
+ *   https://tools.ietf.org/html/rfc8017#appendix-A.1.2
+ *   https://github.com/golang/go/blob/master/src/crypto/x509/pkcs1.go
+ *   https://github.com/openssl/openssl/blob/master/crypto/rsa/rsa_asn1.c
+ */
+
+/*!
+ * pkcs3.js - PKCS3 encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://www.teletrust.de/fileadmin/files/oid/oid_pkcs-3v1-4.pdf
+ */
+
+/*!
+ * pkcs5.js - PKCS5 padding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/PKCS
+ *   https://tools.ietf.org/html/rfc2898
+ *   https://tools.ietf.org/html/rfc8018
+ */
+
+/*!
+ * pkcs8.js - PKCS8 encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009 The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/PKCS_8
+ *   https://tools.ietf.org/html/rfc5208
+ *   https://tools.ietf.org/html/rfc5958
+ *   https://github.com/golang/go/blob/master/src/crypto/x509/pkcs8.go
+ */
+
+/*!
+ * rfc3279.js - rfc3279 encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc3279
+ *   https://tools.ietf.org/html/rfc5912
+ */
+
+/*!
+ * sec1.js - SEC1 encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   http://www.secg.org/sec1-v2.pdf
+ *   https://github.com/openssl/openssl/blob/master/crypto/ec/ec_asn1.c
+ *   https://github.com/golang/go/blob/master/src/crypto/x509/sec1.go
+ */
+
+/*!
+ * util.js - encoding utils for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * x509.js - X509 for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/asn1.js:
+ *   Copyright Fedor Indutny, 2013.
+ *   https://github.com/indutny/asn1.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/X.509
+ *   https://tools.ietf.org/html/rfc4158
+ *   https://www.ietf.org/rfc/rfc2560.txt
+ *   https://www.ietf.org/rfc/rfc5280.txt
+ *   https://github.com/indutny/asn1.js/blob/master/rfc/2560/index.js
+ *   https://github.com/indutny/asn1.js/blob/master/rfc/5280/index.js
+ *   https://github.com/indutny/asn1.js/blob/master/lib/asn1/base/node.js
+ *   https://github.com/indutny/asn1.js/blob/master/lib/asn1/encoders/der.js
+ *   https://github.com/indutny/asn1.js/blob/master/lib/asn1/decoders/der.js
+ */

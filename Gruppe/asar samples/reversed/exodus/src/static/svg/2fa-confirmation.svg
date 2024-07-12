@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="125" viewBox="0 0 81 125">
+    <defs>
+        <linearGradient id="a" x1="31.173%" x2="78.379%" y1="0%" y2="123.775%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".1"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <linearGradient id="b" x1="33.422%" x2="66.578%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#FF9F19"/>
+            <stop offset="100%" stop-color="#FC3"/>
+        </linearGradient>
+        <linearGradient id="d" x1="33.469%" x2="74.918%" y1="0%" y2="123.775%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".5"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".1"/>
+        </linearGradient>
+        <path id="c" d="M8 0c1.005 0 1.873 3 3 3h24c1.162 0 1.927-3 3-3h5a3 3 0 0 1 3 3v74a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z"/>
+        <linearGradient id="e" x1="102%" x2="2.718%" y1="53.532%" y2="46.724%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".1"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <linearGradient id="f" x1="102%" x2="2.718%" y1="101%" y2="2.691%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".1"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".5"/>
+        </linearGradient>
+        <linearGradient id="i" x1="100%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#556FF2"/>
+            <stop offset="100%" stop-color="#00BFFF"/>
+        </linearGradient>
+        <path id="h" d="M60.2.693l7.992 4.614a2.4 2.4 0 0 1 1.2 2.079v9.228a2.4 2.4 0 0 1-1.2 2.079L60.2 23.307a2.4 2.4 0 0 1-2.4 0l-7.992-4.614a2.4 2.4 0 0 1-1.2-2.079V7.386a2.4 2.4 0 0 1 1.2-2.079L57.8.693a2.4 2.4 0 0 1 2.4 0z"/>
+        <filter id="g" width="244.9%" height="255.2%" x="-72.5%" y="-69.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+        <linearGradient id="l" x1="100%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#5C26FF"/>
+            <stop offset="100%" stop-color="#8C66FF"/>
+        </linearGradient>
+        <path id="k" d="M48.8 92.462l5.328 3.076c.495.286.8.814.8 1.386v6.152a1.6 1.6 0 0 1-.8 1.386l-5.328 3.076a1.6 1.6 0 0 1-1.6 0l-5.328-3.076a1.6 1.6 0 0 1-.8-1.386v-6.152c0-.572.305-1.1.8-1.386l5.328-3.076a1.6 1.6 0 0 1 1.6 0z"/>
+        <filter id="j" width="242.9%" height="253.2%" x="-71.4%" y="-70.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+        <linearGradient id="m" x1="100%" x2="0%" y1="44.003%" y2="55.997%">
+            <stop offset="0%" stop-color="#5C26FF"/>
+            <stop offset="100%" stop-color="#8C66FF"/>
+        </linearGradient>
+        <linearGradient id="n" x1="72.219%" x2="27.781%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#556FF2"/>
+            <stop offset="100%" stop-color="#00BFFF"/>
+        </linearGradient>
+        <linearGradient id="o" x1="27.782%" x2="72.218%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#FF9F19"/>
+            <stop offset="100%" stop-color="#FC3"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M57 12a6 6 0 0 1 6 6v76a6 6 0 0 1-6 6H15a6 6 0 0 1-6-6V18a6 6 0 0 1 6-6h42zm-41 4a3 3 0 0 0-3 3v74a3 3 0 0 0 3 3h40a3 3 0 0 0 3-3V19a3 3 0 0 0-3-3h-5l-.138.017C49.86 16.255 49.112 19 48 19H24l-.146-.017C22.797 18.745 21.961 16 21 16zm14-1.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm12 .5h-8a1 1 0 0 0-.117 1.993L34 17h8a1 1 0 0 0 0-2z" opacity=".25" transform="translate(0 9)"/>
+        <path fill="url(#b)" fill-rule="nonzero" d="M7.8 29.462l1.2.693v13.69l-1.2.693a1.6 1.6 0 0 1-1.6 0L.872 41.462a1.6 1.6 0 0 1-.8-1.386v-6.152c0-.572.305-1.1.8-1.386L6.2 29.462a1.6 1.6 0 0 1 1.6 0z" transform="translate(0 9)"/>
+        <use fill="url(#d)" opacity=".25" transform="translate(13 25)" xlink:href="#c"/>
+        <g transform="translate(17 87)">
+            <rect width="38" height="10" fill="url(#e)" opacity=".25" rx="5"/>
+            <rect width="10" height="10" fill="url(#f)" rx="5"/>
+        </g>
+        <g transform="translate(0 9)">
+            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+            <use fill="url(#i)" xlink:href="#h"/>
+        </g>
+        <g transform="translate(0 9)">
+            <use fill="#000" filter="url(#j)" xlink:href="#k"/>
+            <use fill="url(#l)" xlink:href="#k"/>
+        </g>
+        <g fill-rule="nonzero">
+            <path fill="url(#m)" d="M33.86 28l3.463 2.002C33.865 35.979 27.403 40 20 40c-7.4 0-13.863-4.02-17.322-9.995l3.465-2.001C8.91 32.784 14.079 36 20 36c5.922 0 11.093-3.217 13.86-8z" transform="translate(16 39)"/>
+            <path fill="url(#n)" d="M20 0c11.046 0 20 8.954 20 20 0 3.643-.974 7.059-2.676 10l-3.465-2A15.926 15.926 0 0 0 36 20c0-8.837-7.163-16-16-16V0z" transform="translate(16 39)"/>
+            <path fill="url(#o)" d="M19.999 0v3.999l-.314.004C10.994 4.171 4 11.269 4 20c0 2.915.78 5.648 2.141 8.002l-3.464 2A19.908 19.908 0 0 1 0 20C0 8.955 8.954 0 19.999 0z" transform="translate(16 39)"/>
+        </g>
+        <path stroke="#FFF" stroke-dasharray="1,4" d="M36 10v29.144m0 40.076V117" opacity=".4"/>
+        <path fill="#FFF" d="M36 49c3.166 0 5.747 2.522 5.863 5.676l.004.221v1.956c.587.145 1.174.31 1.762.498.221.071.371.28.371.514v8.403c0 .233-.15.442-.371.513C41.086 67.594 38.543 68 36 68c-2.543 0-5.086-.406-7.629-1.219a.538.538 0 0 1-.371-.513v-8.403c0-.234.15-.443.371-.514a26.794 26.794 0 0 1 1.762-.497v-1.957l.004-.22C30.253 51.521 32.834 49 36 49zm0 1.876c-2.21 0-4 1.8-4 4.021v1.57a24.173 24.173 0 0 1 4-.334c1.333 0 2.667.112 4 .335v-1.57c0-2.154-1.684-3.912-3.8-4.017l-.2-.005z"/>
+    </g>
+</svg>

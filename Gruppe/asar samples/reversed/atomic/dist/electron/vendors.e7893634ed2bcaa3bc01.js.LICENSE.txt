@@ -1,0 +1,57 @@
+/*!
+ * bufio.js - buffer utilities for javascript
+ * Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */
+
+/*!
+ * encoding.js - encoding utils for bcoin
+ * Copyright (c) 2014-2015, Fedor Indutny (MIT License)
+ * Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */
+
+/*!
+ * enforce.js - type enforcement for bcoin
+ * Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */
+
+/*!
+ * error.js - encoding error for bcoin
+ * Copyright (c) 2014-2015, Fedor Indutny (MIT License)
+ * Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */
+
+/*!
+ * loady.js - dynamic loader for node.js
+ * Copyright (c) 2019-2020, Christopher Jeffrey (MIT License).
+ * https://github.com/chjj/loady
+ */
+
+/*!
+ * reader.js - buffer reader for bcoin
+ * Copyright (c) 2014-2015, Fedor Indutny (MIT License)
+ * Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */
+
+/*!
+ * staticwriter.js - buffer writer for bcoin
+ * Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */
+
+/*!
+ * struct.js - struct object for bcoin
+ * Copyright (c) 2018, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */
+
+/*!
+ * writer.js - buffer writer for bcoin
+ * Copyright (c) 2014-2015, Fedor Indutny (MIT License)
+ * Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcoin
+ */

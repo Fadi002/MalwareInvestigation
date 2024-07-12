@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03 House</title>
+    <g id="design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05" transform="translate(-558.000000, -584.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Colors-icons" transform="translate(235.000000, 380.000000)">
+                <g id="Icons-+area" transform="translate(193.000000, 194.000000)">
+                    <g id="03" transform="translate(130.000000, 10.000000)">
+                        <path d="M20.6931818,8.78980791 L12.5113636,2.18122008 C12.212455,1.93959331 11.787545,1.93959331 11.4886364,2.18122008 L3.30681824,8.78980791 C3.11279712,8.94664742 3,9.18402807 3,9.43497129 L3,20.1739265 C3,20.6301543 3.36631253,21 3.81818187,21 L9.54545456,21 L9.54545456,14.3914122 L14.4545454,14.3914122 L14.4545454,21 L20.1818181,21 C20.6336875,21 21,20.6301543 21,20.1739265 L21,9.43497129 C21,9.18402807 20.8872029,8.94664742 20.6931818,8.78980791 Z" id="03-House-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

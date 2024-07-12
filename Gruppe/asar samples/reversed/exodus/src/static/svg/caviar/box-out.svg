@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 48 48">
+  <style>
+    .st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+  </style>
+  <g id="Box_-_Out">
+    <path d="M24 23V1M33 10l-9-9-9 9" class="st0"/>
+    <g id="Inbox">
+      <path d="M33 17h6l8 12-1.9 11.3c-.6 3.9-4 6.7-7.9 6.7H10.8c-3.9 0-7.2-2.8-7.9-6.7L1 29l8-12h6" class="st0"/>
+      <path d="M1 29h16l.6 2.2C18.4 34 21 36 24 36c3 0 5.6-2 6.4-4.8L31 29h16" class="st0"/>
+    </g>
+  </g>
+</svg>

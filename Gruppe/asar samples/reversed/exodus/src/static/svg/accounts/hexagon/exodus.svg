@@ -1,0 +1,30 @@
+<svg width="30" height="30" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd"
+          d="m46.2 2.425 27.973 16.15a8.4 8.4 0 0 1 4.2 7.275v32.3a8.4 8.4 0 0 1-4.2 7.275L46.2 81.575a8.4 8.4 0 0 1-8.4 0L9.827 65.425a8.4 8.4 0 0 1-4.2-7.275v-32.3a8.4 8.4 0 0 1 4.2-7.275L37.8 2.425a8.4 8.4 0 0 1 8.4 0Z"
+          fill="url(#a)"/>
+    <mask id="b" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="21" y="21" width="42" height="42">
+        <path d="M62.748 32.727 44.863 21v6.557l11.474 7.456-1.35 4.27H44.863v5.433h10.124l1.35 4.271-11.474 7.456V63l17.885-11.69-2.924-9.291 2.924-9.292ZM29.302 44.716H39.39v-5.432H29.264l-1.313-4.271 11.436-7.456V21L21.503 32.727l2.925 9.292-2.925 9.291L39.426 63v-6.557l-11.474-7.456 1.35-4.27Z"
+              fill="#1D1D1B"/>
+    </mask>
+    <g mask="url(#b)">
+        <path d="M62.748 32.727 44.863 21v6.557l11.474 7.456-1.35 4.27H44.863v5.433h10.124l1.35 4.271-11.474 7.456V63l17.885-11.69-2.924-9.291 2.924-9.292ZM29.302 44.716H39.39v-5.432H29.264l-1.313-4.271 11.436-7.456V21L21.503 32.727l2.925 9.292-2.925 9.291L39.426 63v-6.557l-11.474-7.456 1.35-4.27Z"
+              fill="#fff"/>
+        <path fill="url(#c)" d="M21.556 21h45.651v46.45H21.556z"/>
+        <ellipse cx="24.057" cy="30.21" rx="40.154" ry="43.535" transform="rotate(-33.93 24.057 30.21)" fill="url(#d)"/>
+    </g>
+    <defs>
+        <linearGradient id="a" x1="5.627" y1="82.701" x2="86.516" y2="10.412" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0A0B1A"/>
+            <stop offset="1" stop-color="#333649"/>
+        </linearGradient>
+        <linearGradient id="c" x1="57.047" y1="66.096" x2="45.019" y2="16.647" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0B46F9"/>
+            <stop offset="1" stop-color="#BBFBE0"/>
+        </linearGradient>
+        <radialGradient id="d" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                        gradientTransform="rotate(72.256 -8.665 31.583) scale(32.938 30.8751)">
+            <stop offset=".12" stop-color="#8952FF" stop-opacity=".87"/>
+            <stop offset="1" stop-color="#DABDFF" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+</svg>

@@ -1,0 +1,296 @@
+/*!
+ * aes.js - aes128/192/256 for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on openssl/openssl:
+ *   Based on code entered into the public domain by Vincent Rijmen.
+ *   https://github.com/openssl/openssl/blob/master/crypto/aes/aes_core.c
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+ *   http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf
+ *   https://github.com/openssl/openssl/blob/master/crypto/aes/aes_core.c
+ */
+
+/*!
+ * blowfish.js - blowfish for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on joyent/node-bcrypt-pbkdf:
+ *   Copyright (c) 2016, Joyent Inc
+ *   https://github.com/joyent/node-bcrypt-pbkdf
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Blowfish_(cipher)
+ *   https://www.schneier.com/blowfish.html
+ *   https://github.com/joyent/node-bcrypt-pbkdf/blob/master/index.js
+ */
+
+/*!
+ * camellia.js - camellia128/192/256 for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on aead/camellia:
+ *   Copyright (c) 2016, Andreas Auernhammer (MIT License).
+ *   https://github.com/aead/camellia
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Camellia_(cipher)
+ *   https://tools.ietf.org/html/rfc3713
+ *   https://github.com/aead/camellia/blob/master/camellia.go
+ */
+
+/*!
+ * cash32.js - cashaddr for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on Bitcoin-ABC/bitcoin-abc:
+ *   Copyright (c) 2009-2019, The Bitcoin Developers (MIT License).
+ *   Copyright (c) 2009-2017, The Bitcoin Core Developers (MIT License).
+ *   https://github.com/Bitcoin-ABC/bitcoin-abc
+ *
+ * Parts of this software are based on sipa/bech32:
+ *   Copyright (c) 2017, Pieter Wuille (MIT License).
+ *   https://github.com/sipa/bech32
+ *
+ * Resources:
+ *   https://github.com/bitcoincashorg/spec/blob/master/cashaddr.md
+ *   https://github.com/Bitcoin-ABC/bitcoin-abc/blob/master/src/cashaddr.cpp
+ */
+
+/*!
+ * cast5.js - CAST5 for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/CAST-128
+ *   https://tools.ietf.org/html/rfc2144
+ *   https://github.com/golang/crypto/blob/master/cast5/cast5.go
+ */
+
+/*!
+ * chacha20.js - chacha20 for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources
+ *   https://en.wikipedia.org/wiki/Chacha20
+ *   https://tools.ietf.org/html/rfc7539#section-2
+ *   https://cr.yp.to/chacha.html
+ */
+
+/*!
+ * cipher.js - ciphers for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * cleanse.js - memzero for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * des.js - DES for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/des.js:
+ *   Copyright (c) 2015, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/des.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Data_Encryption_Standard
+ *   https://github.com/indutny/des.js/tree/master/lib/des
+ */
+
+/*!
+ * dh.js - DH for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Diffie_hellman
+ *   https://www.teletrust.de/fileadmin/files/oid/oid_pkcs-3v1-4.pdf
+ */
+
+/*!
+ * dsa.js - DSA for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Digital_Signature_Algorithm
+ *   http://csrc.nist.gov/publications/fips/archive/fips186-2/fips186-2.pdf
+ *   http://csrc.nist.gov/publications/fips/fips186-3/fips_186-3.pdf
+ *   http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf
+ *   https://tools.ietf.org/html/rfc6979
+ *   https://github.com/openssl/openssl/blob/master/crypto/dsa/dsa_ossl.c
+ *   https://github.com/golang/go/blob/master/src/crypto/dsa/dsa.go
+ *   https://github.com/golang/go/blob/master/src/math/big/int.go
+ */
+
+/*!
+ * ecdsa.js - wrapper for elliptic
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/elliptic:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/elliptic
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/ECDSA
+ *   http://csrc.nist.gov/publications/fips/archive/fips186-2/fips186-2.pdf
+ *   https://csrc.nist.gov/csrc/media/publications/fips/186/3/archive/2009-06-25/documents/fips_186-3.pdf
+ *   http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf
+ *   http://www.secg.org/sec1-v2.pdf (section 4.1.3 & 4.1.4)
+ *   https://tinyurl.com/guide-to-ecc (section 4.4.1)
+ */
+
+/*!
+ * ed25519.js - ed25519 for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/EdDSA
+ *   https://en.wikipedia.org/wiki/EdDSA#Ed25519
+ *   https://en.wikipedia.org/wiki/Curve25519
+ *   https://tools.ietf.org/html/rfc7748
+ *   https://tools.ietf.org/html/rfc7748#section-5
+ *   https://tools.ietf.org/html/rfc8032
+ *   https://tools.ietf.org/html/rfc8032#appendix-A
+ *   https://tools.ietf.org/html/rfc8032#appendix-B
+ */
+
+/*!
+ * ed448.js - ed448 for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/elliptic:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/elliptic
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/EdDSA
+ *   https://en.wikipedia.org/wiki/Curve448
+ *   https://eprint.iacr.org/2015/625.pdf
+ *   https://tools.ietf.org/html/rfc7748
+ *   https://tools.ietf.org/html/rfc7748#section-5
+ *   https://tools.ietf.org/html/rfc8032
+ *   https://tools.ietf.org/html/rfc8032#appendix-A
+ *   https://tools.ietf.org/html/rfc8032#appendix-B
+ *   http://ed448goldilocks.sourceforge.net/
+ *   git://git.code.sf.net/p/ed448goldilocks/code
+ *   https://git.zx2c4.com/goldilocks/tree/src
+ */
+
+/*!
+ * eddsa.js - ed25519 for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/elliptic:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/elliptic
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/EdDSA
+ *   https://tools.ietf.org/html/rfc7748
+ *   https://tools.ietf.org/html/rfc7748#section-5
+ *   https://tools.ietf.org/html/rfc8032
+ *   https://tools.ietf.org/html/rfc8032#appendix-A
+ *   https://tools.ietf.org/html/rfc8032#appendix-B
+ *   https://eprint.iacr.org/2015/625.pdf
+ *   http://ed448goldilocks.sourceforge.net/
+ *   git://git.code.sf.net/p/ed448goldilocks/code
+ *   https://git.zx2c4.com/goldilocks/tree/src
+ */
+
+/*!
+ * gcm.js - gcm for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Galois/Counter_Mode
+ *   https://dx.doi.org/10.6028/NIST.SP.800-38D
+ *   https://github.com/golang/go/blob/master/src/crypto/cipher/gcm.go
+ *   https://github.com/golang/go/blob/master/src/crypto/cipher/gcm_test.go
+ *   https://github.com/DaGenix/rust-crypto/blob/master/src/ghash.rs
+ */
+
+/*!
+ * idea.js - IDEA for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on dgryski/go-idea:
+ *   Copyright (c) 2013-2017, Damian Gryski. All rights reserved.
+ *   https://github.com/dgryski/go-idea
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/International_Data_Encryption_Algorithm
+ *   https://github.com/dgryski/go-idea/blob/master/idea.go
+ */
+
+/*!
+ * modes.js - cipher modes for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation
+ */
+
+/*!
+ * rc2.js - RC2 for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/RC2
+ *   https://github.com/golang/crypto/blob/master/pkcs12/internal/rc2/rc2.go
+ *   https://en.wikipedia.org/wiki/RC2
+ *   https://www.ietf.org/rfc/rfc2268.txt
+ *   http://people.csail.mit.edu/rivest/pubs/KRRR98.pdf
+ */
+
+/*!
+ * twofish.js - twofish for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Twofish
+ *   https://www.schneier.com/academic/twofish/
+ *   https://github.com/golang/crypto/blob/master/twofish/twofish.go
+ */

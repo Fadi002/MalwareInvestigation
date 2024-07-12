@@ -1,0 +1,7 @@
+/*!
+ * Fast "async" scrypt implementation in JavaScript.
+ * Copyright (c) 2013-2016 Dmitry Chestnykh | BSD License
+ * https://github.com/dchest/scrypt-async-js
+ */
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */

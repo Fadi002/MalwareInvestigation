@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <linearGradient id="a" x1="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FAFAFA"/>
+        </linearGradient>
+        <linearGradient id="b" x1="85.355%" x2="14.645%" y1="14.672%" y2="85.328%">
+            <stop offset="0%" stop-color="#FF2D55"/>
+            <stop offset="100%" stop-color="#FFBC5B"/>
+        </linearGradient>
+        <linearGradient id="c" x1="49.966%" x2="49.966%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#A524B3"/>
+            <stop offset="100%" stop-color="#FF2D55"/>
+        </linearGradient>
+        <linearGradient id="d" x1="49.966%" x2="49.966%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#A524B3"/>
+            <stop offset="100%" stop-color="#FF2D55"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="url(#a)" d="M7.05 0h29.9c2.451 0 3.34.255 4.236.735.897.479 1.6 1.182 2.08 2.079.479.896.734 1.785.734 4.237v29.898c0 2.452-.255 3.341-.735 4.237a4.998 4.998 0 0 1-2.079 2.08c-.896.479-1.785.734-4.237.734H7.051c-2.452 0-3.341-.255-4.237-.735a4.998 4.998 0 0 1-2.08-2.079C.256 40.29 0 39.401 0 36.95V7.051C0 4.599.255 3.71.735 2.814A4.998 4.998 0 0 1 2.814.734C3.71.256 4.599 0 7.05 0z"/>
+        <g transform="translate(9 9)">
+            <ellipse cx="12.902" cy="12.897" fill="url(#b)" rx="12.902" ry="12.897"/>
+            <path fill="url(#c)" d="M9.14 8.383v9.673h8.064z"/>
+            <path fill="#FFF" d="M1.077 18.056H9.14V8.383z"/>
+            <path fill="#FC9965" d="M2.58 20.635a13.243 13.243 0 0 0 2.58 2.58h15.483a13.243 13.243 0 0 0 2.58-2.58H2.58z"/>
+            <path fill="#FF2D55" d="M5.16 23.214a12.851 12.851 0 0 0 7.742 2.58c2.903 0 5.586-.962 7.74-2.58H5.162z"/>
+            <path fill="url(#d)" d="M17.308 13.542v7.093h5.915z"/>
+            <path fill="#FFBC5B" d="M17.308 18.056H1.078c.399.921.909 1.786 1.502 2.58h14.734v-2.58h-.006z"/>
+            <path fill="#FFF" d="M11.4 20.635h5.908v-7.093z"/>
+            <ellipse cx="17.308" cy="8.383" fill="#FFC95B" rx="3.225" ry="3.224"/>
+            <ellipse cx="9.14" cy="4.836" fill="#FFC95B" rx="1.613" ry="1.612"/>
+        </g>
+    </g>
+</svg>

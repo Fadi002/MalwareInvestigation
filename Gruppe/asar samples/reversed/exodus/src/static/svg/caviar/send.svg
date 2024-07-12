@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <style>
+    .st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+  </style>
+  <g id="Send">
+    <path d="M12 27.4V42l8-7.1" class="st0"/>
+    <path d="M27.5 42L46 6 2 18zM46 6L12 27.4" class="st0"/>
+  </g>
+</svg>

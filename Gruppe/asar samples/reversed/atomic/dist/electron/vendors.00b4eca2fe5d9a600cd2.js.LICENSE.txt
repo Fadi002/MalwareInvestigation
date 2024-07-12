@@ -1,0 +1,286 @@
+/*!
+ * aead.js - aead for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc7539#section-2.8
+ *   https://github.com/openssh/openssh-portable
+ */
+
+/*!
+ * aes.js - aes128/192/256 for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * asn1-mini.js - miniature asn1 implementation for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * base58.js - base58 for bcrypto
+ * Copyright (c) 2014-2015, Fedor Indutny (MIT License)
+ * Copyright (c) 2014-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on bitcoin/bitcoin:
+ *   Copyright (c) 2009-2019, The Bitcoin Core Developers (MIT License).
+ *   Copyright (c) 2009-2019, The Bitcoin Developers (MIT License).
+ *   https://github.com/bitcoin/bitcoin
+ *
+ * Resources:
+ *   https://github.com/bitcoin/bitcoin/blob/master/src/base58.cpp
+ */
+
+/*!
+ * bech32.js - bech32 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on sipa/bech32:
+ *   Copyright (c) 2017, Pieter Wuille (MIT License).
+ *   https://github.com/sipa/bech32
+ *
+ * Resources:
+ *   https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
+ *   https://github.com/sipa/bech32/blob/master/ref/c/segwit_addr.c
+ *   https://github.com/bitcoin/bitcoin/blob/master/src/bech32.cpp
+ */
+
+/*!
+ * blake2b.js - BLAKE2b implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on dcposch/blakejs:
+ *   Daniel Clemens Posch (CC0)
+ *   https://github.com/dcposch/blakejs/blob/master/blake2b.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/BLAKE_(hash_function)
+ *   https://tools.ietf.org/html/rfc7693
+ */
+
+/*!
+ * blake2s.js - BLAKE2s implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on dcposch/blakejs:
+ *   Daniel Clemens Posch (CC0)
+ *   https://github.com/dcposch/blakejs/blob/master/blake2s.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/BLAKE_(hash_function)
+ *   https://tools.ietf.org/html/rfc7693
+ */
+
+/*!
+ * bn.js - big numbers for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/bn.js:
+ *   Copyright (c) 2015, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/bn.js
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Parts of this software are based on openssl/openssl:
+ *   Copyright (c) 1998-2018, The OpenSSL Project (Apache License v2.0).
+ *   Copyright (c) 1995-1998, Eric A. Young, Tim J. Hudson. All rights reserved.
+ *   https://github.com/openssl/openssl
+ *
+ * Parts of this software are based on libgmp:
+ *   Copyright (c) 1991-1997, 1999-2014, Free Software Foundation, Inc.
+ *   https://gmplib.org/
+ *
+ * Parts of this software are based on v8/v8:
+ *   Copyright (c) 2017, The V8 Project Authors (BSD-Style License).
+ *   https://github.com/v8/v8
+ *
+ * Resources:
+ *   https://github.com/indutny/bn.js/blob/master/lib/bn.js
+ *   https://github.com/golang/go/blob/master/src/math/big/int.go
+ *   https://github.com/golang/go/blob/master/src/math/big/nat.go
+ *   https://github.com/openssl/openssl/tree/master/crypto/bn
+ *   https://github.com/gnutls/nettle/blob/master/mini-gmp.c
+ *   https://github.com/v8/v8/blob/master/src/objects/bigint.cc
+ */
+
+/*!
+ * ciphers.js - cipher list for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * custom.js - custom inspect symbol for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * dhkey.js - DH keys for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Diffie_hellman
+ *   https://www.teletrust.de/fileadmin/files/oid/oid_pkcs-3v1-4.pdf
+ */
+
+/*!
+ * dsakey.js - DSA keys for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc7517
+ *   https://tools.ietf.org/html/rfc7518
+ *   https://mozilla.github.io/id-specs/docs/formats/keys/
+ */
+
+/*!
+ * eckey.js - jwk ec keys for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc7517
+ *   https://tools.ietf.org/html/rfc7518
+ *   https://tools.ietf.org/html/rfc8037
+ *   https://tools.ietf.org/html/draft-jones-webauthn-secp256k1-00
+ *   https://tools.ietf.org/html/draft-ietf-jose-cfrg-curves-06#appendix-A.1
+ *   https://tools.ietf.org/html/draft-ietf-jose-cfrg-curves-06#appendix-A.6
+ */
+
+/*!
+ * hkdf.js - hkdf for bcrypto
+ * Copyright (c) 2014-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/HKDF
+ *   https://tools.ietf.org/html/rfc5869
+ */
+
+/*!
+ * hmac-drbg.js - hmac-drbg implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/hmac-drbg:
+ *   Copyright Fedor Indutny, 2017.
+ *   https://github.com/indutny/hmac-drbg
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc6979
+ *   https://csrc.nist.gov/publications/detail/sp/800-90a/archive/2012-01-23
+ *   https://github.com/indutny/hmac-drbg/blob/master/lib/hmac-drbg.js
+ */
+
+/*!
+ * hmac.js - hmac for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/hash.js:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/hash.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/HMAC
+ *   https://tools.ietf.org/html/rfc2104
+ *   https://github.com/indutny/hash.js/blob/master/lib/hash/hmac.js
+ */
+
+/*!
+ * mont.js - key agreement wrapper for ed25519/ed448
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc7748
+ */
+
+/*!
+ * objects.js - OIDs encoding for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Resources:
+ *   https://www.ietf.org/rfc/rfc2459.txt
+ *   https://tools.ietf.org/html/rfc3279
+ *   http://oid-info.com/get/1.2.840.10040.4
+ *   http://oid-info.com/get/1.2.840.113549.1.1
+ *   http://oid-info.com/get/1.2.840.10045.4.3
+ *   https://tools.ietf.org/html/draft-jivsov-openpgp-sha3-01
+ *   https://github.com/golang/go/blob/master/src/crypto/x509/x509.go
+ *   https://github.com/golang/go/blob/master/src/crypto/x509/pkix/pkix.go
+ *   https://tools.ietf.org/html/draft-josefsson-pkix-eddsa-01
+ *   https://tools.ietf.org/html/rfc5480
+ *   https://tools.ietf.org/html/draft-josefsson-pkix-newcurves-00
+ *   https://tools.ietf.org/id/draft-ietf-curdle-pkix-06.html
+ *   https://tools.ietf.org/html/rfc7693
+ */
+
+/*!
+ * primes.js - Prime number generation for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009, The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Parts of this software are based on indutny/miller-rabin:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/miller-rabin
+ *
+ * Resources:
+ *   https://github.com/golang/go/blob/master/src/crypto/rsa/rsa.go
+ *   https://github.com/golang/go/blob/master/src/math/big/prime.go
+ *   https://github.com/golang/go/blob/master/src/math/big/int.go
+ *   https://github.com/golang/go/blob/master/src/math/big/nat.go
+ *   https://github.com/golang/go/blob/master/src/crypto/rand/util.go
+ *   https://github.com/indutny/miller-rabin/blob/master/lib/mr.js
+ */
+
+/*!
+ * rsakey.js - RSA keys for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://tools.ietf.org/html/rfc7517
+ *   https://tools.ietf.org/html/rfc7518
+ */
+
+/*!
+ * signature.js - signatures for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/elliptic:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/elliptic
+ *
+ * Parts of this software are based on bitcoin-core/secp256k1:
+ *   Copyright (c) 2013, Pieter Wuille.
+ *   https://github.com/bitcoin-core/secp256k1
+ *
+ * Resources:
+ *   https://github.com/indutny/elliptic/blob/master/lib/elliptic/ec/signature.js
+ *   https://github.com/bitcoin-core/secp256k1/blob/master/src/ecdsa_impl.h
+ *   https://github.com/bitcoin-core/secp256k1/blob/master/contrib/lax_der_parsing.c
+ */

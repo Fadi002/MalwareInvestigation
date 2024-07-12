@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M0,30 L30,30 L30,0 L0,0 L0,30 Z M6,6 L24,6 L24,24 L6,24 L6,6 Z" id="Shape"></path>
+            <rect id="Rectangle-path" x="10" y="10" width="10" height="10"></rect>
+            <path d="M0,64 L30,64 L30,34 L0,34 L0,64 Z M6,40 L24,40 L24,58 L6,58 L6,40 Z" id="Shape"></path>
+            <path d="M34,0 L34,30 L64,30 L64,0 L34,0 Z M57.9989794,24 L40,24 L40,6 L58,6 L58,24 L57.9989794,24 Z" id="Shape"></path>
+            <rect id="Rectangle-path" x="34" y="34" width="20" height="6"></rect>
+            <rect id="Rectangle-path" x="34" y="44" width="6" height="20"></rect>
+            <polygon id="Shape" points="57 53 50 53 50 58 43.25 58 43.25 64 50 64 50 60 57 60 57 64 64 64 64 58 57 58"></polygon>
+            <polygon id="Shape" points="58 44 45 44 45 50 63.9952567 50 63.9952567 34 58 34"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="100%" y1="100%" x2="0%" y2="0%" id="exodus-purple-gradient">
+            <stop stop-color="#420BE6" offset="0%"/>
+            <stop stop-color="#A16BB3" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill="url(#exodus-purple-gradient)">
+        <path d="M35.784 10.052 20.454 0v5.62l9.834 6.39-1.157 3.662h-8.678v4.656h8.678l1.157 3.661-9.835 6.391V36l15.331-10.02-2.507-7.964 2.507-7.964ZM7.116 20.328h8.645v-4.656H7.084L5.959 12.01 15.76 5.62V0L.431 10.052l2.507 7.964L.43 25.98 15.793 36v-5.62L5.96 23.99l1.157-3.662Z"/>
+    </g>
+</svg>

@@ -1,0 +1,319 @@
+/*!
+ * keccak.js - keccak for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * keccak224.js - Keccak-224 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * keccak256.js - Keccak-256 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * keccak384.js - Keccak-384 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * keccak512.js - Keccak-512 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * kmac.js - KMAC implementation for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-185.pdf
+ *   https://github.com/XKCP/XKCP/blob/8f447eb/lib/high/Keccak/SP800-185/SP800-185.inc
+ *   https://github.com/XKCP/XKCP/blob/8f447eb/lib/high/Keccak/SP800-185/SP800-185.c
+ *   https://github.com/XKCP/XKCP/blob/8f447eb/tests/UnitTests/testSP800-185.c
+ *   https://github.com/emn178/js-sha3/blob/master/src/sha3.js
+ */
+
+/*!
+ * kmac128.js - KMAC128 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * kmac256.js - KMAC256 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * md2.js - MD2 implementation for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on RustCrypto/hashes:
+ *   Copyright (c) 2016-2018, The RustCrypto Authors (MIT License).
+ *   https://github.com/RustCrypto/hashes
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/MD2_(hash_function)
+ *   https://tools.ietf.org/html/rfc1319
+ *   https://github.com/RustCrypto/hashes/blob/master/md2/src/lib.rs
+ */
+
+/*!
+ * md4.js - md4 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * md5.js - MD5 for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * md5sha1.js - MD5-SHA1 implementation for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * merkle.js - merkle trees for bcrypto
+ * Copyright (c) 2014-2015, Fedor Indutny (MIT License)
+ * Copyright (c) 2014-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on bitcoin/bitcoin:
+ *   Copyright (c) 2009-2019, The Bitcoin Core Developers (MIT License).
+ *   Copyright (c) 2009-2019, The Bitcoin Developers (MIT License).
+ *   https://github.com/bitcoin/bitcoin
+ */
+
+/*!
+ * mrkl.js - merkle trees for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * rsa.js - RSA for javascript
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on golang/go:
+ *   Copyright (c) 2009 The Go Authors. All rights reserved.
+ *   https://github.com/golang/go
+ *
+ * Parts of this software are based on indutny/miller-rabin:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/miller-rabin
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+ *   https://tools.ietf.org/html/rfc3447
+ *   https://tools.ietf.org/html/rfc8017
+ *   https://github.com/openssl/openssl/blob/master/crypto/rsa/rsa_ossl.c
+ *   https://github.com/openssl/openssl/blob/master/crypto/rsa/rsa_sign.c
+ *   https://github.com/openssl/openssl/blob/master/crypto/rsa/rsa_oaep.c
+ *   https://github.com/openssl/openssl/blob/master/crypto/rsa/rsa_pss.c
+ *   https://github.com/openssl/openssl/blob/master/crypto/rsa/rsa_pkcs1.c
+ *   https://github.com/golang/go/blob/master/src/crypto/rsa/rsa.go
+ *   https://github.com/golang/go/blob/master/src/crypto/rsa/pkcs1v15.go
+ *   https://github.com/golang/go/blob/master/src/crypto/rsa/pss.go
+ *   https://github.com/golang/go/blob/master/src/math/big/prime.go
+ *   https://github.com/golang/go/blob/master/src/math/big/int.go
+ *   https://github.com/golang/go/blob/master/src/math/big/nat.go
+ *   https://github.com/golang/go/blob/master/src/crypto/rand/util.go
+ *   https://github.com/golang/go/blob/master/src/crypto/subtle/constant_time.go
+ *   https://github.com/indutny/miller-rabin/blob/master/lib/mr.js
+ */
+
+/*!
+ * salsa20.js - salsa20 for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources
+ *   https://en.wikipedia.org/wiki/Salsa20
+ *   https://cr.yp.to/snuffle.html
+ *   https://cr.yp.to/snuffle/spec.pdf
+ *   https://cr.yp.to/snuffle/812.pdf
+ *   http://www.ecrypt.eu.org/stream/salsa20pf.html
+ */
+
+/*!
+ * schnorr.js - bip-schnorr for bcrypto
+ * Copyright (c) 2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on sipa/bip-schnorr:
+ *   Copyright (c) 2018-2019, Pieter Wuille (2-clause BSD License).
+ *   https://github.com/sipa/bips/blob/bip-schnorr/bip-schnorr/reference.py
+ *
+ * Parts of this software are based on ElementsProject/secp256k1-zkp:
+ *   Copyright (c) 2013, Pieter Wuille.
+ *   https://github.com/ElementsProject/secp256k1-zkp
+ *
+ * Resources:
+ *   https://github.com/sipa/bips/blob/bip-schnorr/bip-schnorr.mediawiki
+ *   https://github.com/sipa/bips/blob/bip-schnorr/bip-schnorr/reference.py
+ *   https://github.com/sipa/bips/blob/bip-schnorr/bip-schnorr/test-vectors.csv
+ *   https://github.com/ElementsProject/secp256k1-zkp/tree/secp256k1-zkp/src/modules/schnorrsig
+ */
+
+/*!
+ * scrypt.js - scrypt for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on Tarsnap/scrypt:
+ *   Copyright (c) 2005-2016, Colin Percival. All rights reserved.
+ *   Copyright (c) 2005-2016, Tarsnap Backup Inc. All rights reserved.
+ *   Copyright (c) 2014, Sean Kelly. All rights reserved.
+ *   https://github.com/Tarsnap/scrypt
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Scrypt
+ *   http://www.tarsnap.com/scrypt.html
+ *   http://www.tarsnap.com/scrypt/scrypt.pdf
+ *   https://github.com/Tarsnap/scrypt/blob/master/lib/crypto/crypto_scrypt-ref.c
+ */
+
+/*!
+ * secp256k1.js - secp256k1 for bcrypto
+ * Copyright (c) 2014-2015, Fedor Indutny (MIT License)
+ * Copyright (c) 2014-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ */
+
+/*!
+ * sha1.js - SHA1 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/hash.js:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/hash.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/SHA-1
+ *   https://tools.ietf.org/html/rfc3174
+ *   http://csrc.nist.gov/publications/fips/fips180-4/fips-180-4.pdf
+ *   https://github.com/indutny/hash.js/blob/master/lib/hash/sha/1.js
+ */
+
+/*!
+ * sha224.js - SHA224 implementation for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/hash.js:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/hash.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/SHA-2
+ *   https://tools.ietf.org/html/rfc4634
+ *   https://github.com/indutny/hash.js/blob/master/lib/hash/sha/224.js
+ */
+
+/*!
+ * sha256.js - SHA256 implementation for bcrypto
+ * Copyright (c) 2016-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/hash.js:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/hash.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/SHA-2
+ *   https://tools.ietf.org/html/rfc4634
+ *   https://github.com/indutny/hash.js/blob/master/lib/hash/sha/256.js
+ */
+
+/*!
+ * sha3.js - SHA3 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/SHA-3
+ *   https://keccak.team/specifications.html
+ *   https://csrc.nist.gov/projects/hash-functions/sha-3-project/sha-3-standardization
+ *   http://dx.doi.org/10.6028/NIST.FIPS.202
+ */
+
+/*!
+ * sha384.js - SHA384 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/hash.js:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/hash.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/SHA-2
+ *   https://tools.ietf.org/html/rfc4634
+ *   https://github.com/indutny/hash.js/blob/master/lib/hash/sha/384.js
+ */
+
+/*!
+ * sha512.js - SHA512 implementation for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on indutny/hash.js:
+ *   Copyright (c) 2014, Fedor Indutny (MIT License).
+ *   https://github.com/indutny/hash.js
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/SHA-2
+ *   https://tools.ietf.org/html/rfc4634
+ *   https://github.com/indutny/hash.js/blob/master/lib/hash/sha/512.js
+ */
+
+/*!
+ * siphash.js - siphash for bcrypto
+ * Copyright (c) 2017-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on bitcoin/bitcoin:
+ *   Copyright (c) 2009-2019, The Bitcoin Core Developers (MIT License).
+ *   Copyright (c) 2009-2019, The Bitcoin Developers (MIT License).
+ *   https://github.com/bitcoin/bitcoin
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/SipHash
+ *   https://131002.net/siphash/
+ *   https://131002.net/siphash/siphash.pdf
+ *   https://github.com/bitcoin/bitcoin/blob/master/src/crypto/siphash.cpp
+ */
+
+/*!
+ * whirlpool.js - Whirlpool implementation for bcrypto
+ * Copyright (c) 2018-2019, Christopher Jeffrey (MIT License).
+ * https://github.com/bcoin-org/bcrypto
+ *
+ * Parts of this software are based on RustCrypto/hashes:
+ *   Copyright (c) 2016-2018, The RustCrypto Authors (MIT License).
+ *   https://github.com/RustCrypto/hashes
+ *
+ * Resources:
+ *   https://en.wikipedia.org/wiki/Whirlpool_(hash_function)
+ *   https://www.iso.org/standard/39876.html
+ *   https://github.com/jzelinskie/whirlpool/blob/master/whirlpool.go
+ *   https://github.com/RustCrypto/hashes/blob/master/whirlpool/src/consts.rs
+ *   https://github.com/RustCrypto/hashes/blob/master/whirlpool/src/lib.rs
+ *   https://github.com/RustCrypto/hashes/blob/master/whirlpool/src/utils.rs
+ */

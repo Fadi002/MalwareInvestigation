@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M0 0h14v14H0z"/>
+    <mask id="d" width="14" height="14" x="0" y="0" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <path id="b" d="M0 18h14v14H0z"/>
+    <mask id="e" width="14" height="14" x="0" y="0" fill="#fff">
+      <use xlink:href="#b"/>
+    </mask>
+    <path id="c" d="M18 0h14v14H18z"/>
+    <mask id="f" width="14" height="14" x="0" y="0" fill="#fff">
+      <use xlink:href="#c"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use stroke="#FFF" stroke-width="4" mask="url(#d)" xlink:href="#a"/>
+    <use stroke="#FFF" stroke-width="4" mask="url(#e)" xlink:href="#b"/>
+    <use stroke="#FFF" stroke-width="4" mask="url(#f)" xlink:href="#c"/>
+    <path fill="#FFF" d="M5 5h4v4H5zM5 23h4v4H5zM23 5h4v4h-4zM18 18h2v2h-2zM18 23h2v2h-2zM23 23h2v2h-2zM23 18h2v2h-2zM28 18h2v2h-2zM28 23h2v2h-2zM18 28h2v2h-2zM23 28h2v2h-2zM28 28h2v2h-2z"/>
+  </g>
+</svg>
